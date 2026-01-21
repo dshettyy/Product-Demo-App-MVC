@@ -1,13 +1,46 @@
-# Product-Demo-App-MVC
+# ASP.NET Core MVC Product Application
 
-//Develop a asp.net core mvc application to demonstrate the use of ctrl S, action results, razor views, model binding, validation, static files and configuration settings 
-// a.Ctrl S, action results and razor views
-//create a controller to display a list of products use razor syntax in the view to display the products details such as ID, Name , Price in a tabular format 
-//b.  Model binding and validation
-//design a registration form using asp.net core mvc . Apply model binding to bind form data to a model and perform server side validation using data annotations 
-// c .Static files
-// how to serve a static file in a asp core ,vc application using www root folder.
-// d.Configuration settings
-// Store application level configuration in appsettings.json . Access them in a controller using Iconfiguration. Display the configuration values in a razor view. 
-//e. Program Configuration
-  // Explain the role of Program.cs in configuring services, middleware , and routing in an asp.net core mvc application. 
+This is a simple **ASP.NET Core MVC application** developed to understand and demonstrate the core concepts of MVC architecture.
+
+## 📌 Features Covered
+
+This project demonstrates the following concepts:
+
+### 1. MVC Architecture
+- Model
+- View
+- Controller
+
+### 2. Controllers & Action Methods
+- `ProductController` used to handle product-related requests
+- Action methods returning `ViewResult`
+
+### 3. Razor Views
+- Razor syntax used to display product data
+- Product list displayed in tabular format
+
+### 4. Model Binding
+- Form data automatically bound to model properties
+- Strongly typed views used
+
+### 5. Server-Side Validation
+- Data Annotations used for validation
+- Example: Required fields, email validation, etc.
+
+### 6. Static Files
+- Static files (CSS, JS, libraries) served from `wwwroot` folder
+- Bootstrap and jQuery used
+
+### 7. Configuration Settings
+- Application-level settings stored in `appsettings.json`
+- Accessed using `IConfiguration` in controller
+
+### 8. Program.cs Configuration
+- Service registration using `builder.Services`
+- Middleware configuration
+- Routing setup for MVC
+
+---
+
+## 📂 Project Structure
+
